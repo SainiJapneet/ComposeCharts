@@ -36,7 +36,7 @@ fun LabelHelper(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                if(label != null){
+                if(label != ""){
                     Box(
                         modifier = Modifier
                             .size(10.dp)
