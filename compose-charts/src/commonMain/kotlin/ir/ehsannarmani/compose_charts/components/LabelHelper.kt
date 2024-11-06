@@ -36,13 +36,15 @@ fun LabelHelper(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                Box(
-                    modifier = Modifier
-                        .size(10.dp)
-                        .clip(CircleShape)
-                        .background(color)
-                )
-                BasicText(text = label, style = textStyle)
+                if(label != null){
+                    Box(
+                        modifier = Modifier
+                            .size(10.dp)
+                            .clip(CircleShape)
+                            .background(color)
+                    )
+                    BasicText(text = label, style = textStyle)
+                }
             }
         }
     }
