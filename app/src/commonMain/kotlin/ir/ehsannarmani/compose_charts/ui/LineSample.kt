@@ -54,7 +54,7 @@ fun RowScope.LineSample() {
     val data = remember {
         listOf(
             Line(
-                label = "Windows",
+                label = "",
                 values = listOf(
                     75.0,
                     5.0,
@@ -71,7 +71,7 @@ fun RowScope.LineSample() {
                 curvedEdges = true
             ),
             Line(
-                label = "Linux",
+                label = "",
                 values = listOf(
                     1.0,
                     19.0,
@@ -87,7 +87,7 @@ fun RowScope.LineSample() {
                 drawStyle = DrawStyle.Stroke(.5.dp)
             ),
             Line(
-                label = "MacOS",
+                label = "",
                 values = listOf(
                     4.0,
                     40.0,
